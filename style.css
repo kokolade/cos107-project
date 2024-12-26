@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  }
+  
+  header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  header nav ul li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  .search-bar {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+  }
+  
+  .search-bar form {
+  display: inline-block;
+  }
+  
+  .search-bar input[type="text"] {
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  .search-bar button[type="submit"] {
+  height: 25px;
+  padding: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  }
+  
+  .search-bar button[type="submit"]:hover {
+  background-color: #3e8e41;
+  }
+  
+  .hero {
+  background-image: linear-gradient(to bottom, #333, #555);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  }
+  
+  .hero h1 {
+  font-size: 48px;
+  }
+  
+  .hero p {
+  font-size: 18px;
+  }
+  
+  .about {
+  padding: 20px;
+  }
+  
+  .movies {
+  padding: 20px;
+  }
+  
+  .movies ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .movies li {
+  margin-bottom: 20px;
+  }
+  
+  .movies h2 {
+  font-size: 24px;
+  margin-top: 0;
+  }
+  
+  .contact {
+  padding: 20px;
+  }
+  
+  .contact form {
+  margin-top: 20px;
+  }
+  
+  .contact label {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  .contact input[type="text"], .contact input[type="email"] {
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  }
+  
+  .contact textarea {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  }
+  
+  .contact input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  }
+  
+  .contact input[type="submit"]:hover {
+  background-color: #3e8e41;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+  }
